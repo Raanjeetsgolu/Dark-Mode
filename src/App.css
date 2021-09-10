@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.dark-theme {
+  --clr-bcg: #282c35;
+  --clr-font: #fff;
+  --clr-primary: #ffa7c4;
+}
+.light-theme {
+  --clr-bcg: #fff;
+  --clr-font: #282c35;
+  --clr-primary: #d23669;
+}
+.App {
+  background-color: var(--clr-bcg);
+}
+h1 {
+  color: var(--clr-primary);
+  margin-top: 70px;
+}
+p {
+  color: var(--clr-font);
+}
+
+.darkmode {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: auto;
+}
+.darkmode_header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid gray;
+}
+
+.darkmode_content {
+  text-align: start;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.darkmode_content > h1 {
+  margin-top: 40px;
+}
+button {
+  color: var(--clr-font);
+  background-color: #d23669;
+  margin-top: 70px;
+}
