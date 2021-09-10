@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+  justify-content: center;
+  margin: auto;
   text-align: center;
 }
 
@@ -87,4 +90,6 @@ button {
   color: var(--clr-font);
   background-color: #d23669;
   margin-top: 70px;
+  height:30px;
+  width:60px
 }
